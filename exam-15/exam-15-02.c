@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int add (int a, int b);
+
+int main(void)
+{
+    int result;
+
+    result = add(3, 5);
+    printf("함수가 반환한 값: %d\n", result);
+    
+    return 0;
+}
+
+int add(int a, int b)
+{
+    return a + b;
+}

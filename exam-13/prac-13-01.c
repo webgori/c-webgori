@@ -7,8 +7,11 @@ int main(void)
     char str2[50];
 
     // 한글 입력시 이슈가 있으므로 영어로 확인
-    scanf("%s", str1);
-    scanf("%s", str2);
+    // 띄어쓰기를 입력받으려면 gets 사용
+    gets(str1);
+    gets(str2);
+
+    printf("%s\n", str1);
     
     int cmp_value = strcmp(str1, str2);
     
