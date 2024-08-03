@@ -3,7 +3,7 @@
 int main (void)
 {
     int num = 10;
-    int * pnum;
+    int *pnum;
     pnum = &num;
 
     *pnum = 20;

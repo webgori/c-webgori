@@ -28,10 +28,7 @@ int main (void)
         printf("word[%d] = %c, reverse_word[%d] = %c\n", i, word[i], null_start_idx - 1 - i, reverse_word[null_start_idx - 1 - i]);
     }
 
-    for (int i = null_start_idx; i < sizeof(reverse_word); i++)
-    {
-        reverse_word[i] = '\0';
-    }
+    reverse_word[null_start_idx] = '\0';
 
     printf("뒤집은 결과: %s", reverse_word);
 

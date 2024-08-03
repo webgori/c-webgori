@@ -6,9 +6,9 @@ int main (void)
     int inum = 999;
     double dnum = 3.14;
 
-    char * cptr = &cnum;
-    int * iptr = &inum;
-    double * dptr = &dnum;
+    char *cptr = &cnum;
+    int *iptr = &inum;
+    double *dptr = &dnum;
 
     printf("%p\n", cptr);
     printf("%p\n", iptr);
