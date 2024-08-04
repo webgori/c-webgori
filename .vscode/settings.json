@@ -63,7 +63,8 @@
   "files.associations": {
     "*.erd": "json",
     "*.vuerd": "json",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "string.h": "c"
   },
   "editor.defaultFormatter": "ms-vscode.cpptools",
   "editor.formatOnSave": true,
